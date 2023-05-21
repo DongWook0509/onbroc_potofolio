@@ -1,0 +1,216 @@
+/* =================================================================== 
+Common
+=================================================================== */
+
+
+* {
+    font-family: 'Gotham';
+}
+
+
+/* =================================================================== 
+Header
+=================================================================== */
+
+.header_wrap {
+    background: #110F12;
+    padding: 26px 0px 26px;
+}
+
+.header_wrap .header_nav_wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header_nav_wrap .moblie_group_logo{
+    display: none;
+}
+
+.header_naving_wrap .header_nav_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrap {
+    background: #110F12;
+}
+
+
+.header_nav_wrap .header_naving_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrap .header_nav_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_nav_box li > a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.header_nav_box li:not(:first-child) {
+    margin-left: 64px;
+}
+
+.header_nav_wrap .language_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_nav_wrap .language_wrap > a {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #999999;
+}
+
+.language_wrap a>span:first-child{
+    padding-right: 12px;
+    border-right: 1px solid #666666;
+}
+
+.language_wrap a>span:last-child{
+    padding-left: 12px;
+}
+
+.language_wrap .active {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+ 
+.language_wrap .language_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1px;
+    height: 12px;
+    background: #666666;
+    margin: 0px 12px 0px;
+}
+
+.header_nav_wrap .menu_moblie_mokcha{
+    display: none;
+}
+
+/* =================================================================== 
+body
+=================================================================== */
+
+
+/* =================================================================== 
+footer 
+=================================================================== */
+.footer_main_wrap {
+    background: #141312;
+    padding: 47px 0px;
+}
+
+
+.footer_main_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+
+
+.footer_main_box span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer_main_box .twitter_logo{
+    margin-left: 44px;
+}
+
+
+/* =================================================================== 
+midia-query
+=================================================================== */
+@media screen and (max-width: 375px) {
+  
+	.header_wrap {
+        background: #110F12;
+        width: 100%;
+    }
+
+    .header_nav_wrap {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0px 24px 0px;
+    }
+
+    .header_nav_wrap .moblie_group_logo {
+        display: block;
+     }
+
+     .header_wrap .header_naving_wrap {
+        display: none;
+    }
+
+    .header_wrap .frame_logo {
+        display: none;
+    }
+
+    .header_wrap .language_wrap {
+        display: none;
+    }
+
+    .header_nav_wrap .menu_moblie_mokcha{
+        display: block;
+    }
+
+    .footer_main_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_main_box span{
+        padding-top: 12px;
+        width: 300px;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .footer_main_box a{
+        display: flex;
+        margin-top: 32px;
+    }
+}
+
+
+
+
+
+
+
+
