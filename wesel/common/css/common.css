@@ -152,7 +152,7 @@ footer
 /* =================================================================== 
 midia-query
 =================================================================== */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   
 	.header_wrap {
         background: #110F12;
